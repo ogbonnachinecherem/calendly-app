@@ -1,0 +1,499 @@
+.navheadi {
+        position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+  }
+
+h1 {
+	color: blue;
+}
+h5 {
+	color: blue;
+}
+.dot2 {
+	color: white;
+	background-color: blue;
+	font-size: larger;
+	/*margin-top: 10px;*/
+	/*background: blue;*/
+	border-radius: 50%;
+	display: inline-block;
+	padding: 0px;
+height: 35px; 
+}
+.color {
+	color: black;
+	font-weight: bold;
+}
+.easy {
+	font-style: !important;
+	    font-size: 4.20875rem;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    max-width: 450px;
+}
+.text {
+	letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-bottom: 32px;
+    max-width: 450px;
+}
+#signin {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-family: Gilroy, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 2;
+    user-select: text;
+    width: 70%;
+    height: 64px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    padding: 0px 64px 0px 32px;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: rgb(255, 78, 0);
+    border: none;
+    padding-right: 145px;
+    appearance: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 10px;
+    border: none;
+    padding-right: 145px;
+    appearance: none;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px;
+
+}
+.fQJnIm {
+    position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1;
+   
+}
+
+
+#signup  {
+	       position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 107, 255);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: rgb(0, 107, 255);
+}
+
+#signin {
+
+}
+h3 {
+	text-align: center;
+	color: black;
+	font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    
+    
+    font-weight: 600;
+    margin-bottom: 16px;
+    /*max-width: 560px;*/
+}
+
+.cQndQU {
+    display: block;
+    width: auto;
+    max-width: 120px;
+    min-width: 100px;
+    max-height: 30px;
+}
+.logos {
+	background-color: white;
+	height: 200px;
+	padding-top: 90px;
+	margin-bottom: 100px;
+	margin-top: 0px;
+}
+.drop {
+	margin-top: 25px;
+}
+.ebay {
+	margin-top: 18px;
+}
+.compass {
+	margin-left: 80px;
+}
+/*.twilio {
+	padding-right: 40px;
+}*/
+/*.h {
+	padding-left: 70px;
+	text-align: center;*/
+}
+.con {
+	padding-top: 0px;
+}
+.hello {
+	background-color: white;
+	margin-bottom: 0px;
+	height: 100px;
+	padding-top: 60px;
+    
+}
+.we {
+	    text-align: center;
+    color: #0B3558;
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 59px;
+    margin-bottom: 50px;
+}
+.one {
+	background-color: whitesmoke;
+}
+.two {
+	background-color: whitesmoke;
+}
+.three {
+	background-color: whitesmoke;
+	/*height: 250px;*/
+}
+.last {
+	margin-bottom: 50px;
+}
+.thumbnail {
+	background-color:#fbfcfa;
+	color: black;
+	height: 250px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.circle {
+	border-radius: 50%;
+	  height: 30px;
+	  width: 30px;
+	  border: 2px solid blue;
+	  text-align: center;
+	      font: inherit;
+	      color: blue;
+	      font-weight: bold;
+	      font-size: large;
+	      margin-bottom: 50px;
+    
+}
+.footer {
+	background-color: #fbfcfa;
+	color: black;
+  padding-top: 15px;
+  margin-top: 50px;
+  height: 50px;
+}
+.easyone {
+	    font-size: 3.25rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(11, 53, 88);
+    margin-bottom: 32px;
+    max-width: 770px;
+}
+#signupone {
+	background-color: rgb(0, 107, 255);
+}
+.twotwo {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.pad {
+	padding-bottom: 50px;
+}
+.learn {
+	color: rgb(0, 107, 255);
+}
+.learn3 {
+	font-size: 1rem;
+	line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 107, 255);
+    margin-bottom: 32px;
+    max-width: 770px;
+
+}
+.contain {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.give {
+	height: 400px;
+	background-color: rgb(11, 53, 88);;
+	color: white;
+	margin-bottom: 50px;
+	text-align: center;
+	padding-top: 100px;
+}
+.name {
+	margin-bottom: 50px;
+}
+	
+.amen {
+	height: 350px;
+	text-align: left;
+	padding-left: 10px;
+}
+.seen{
+	    font-size: 3.25rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    padding-bottom: 20px;
+}
+#signinp {
+	color: black;
+	background-color: white;
+	font-weight: bold;
+}
+.footer2 {
+	background-color: #fbfcfa;
+	color: black;
+  padding-top: 15px;
+  margin-top: 50px;
+  height: 50px;
+}
+
+}
+.to {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.this {
+	/*overflow: hidden;*/
+  background-color:ghostwhite;
+  /*position: fixed;*/
+  /*top: 0;*/
+/*  width: 100%;*/
+  /*margin-bottom: 100px;*/
+}
+.g {
+	 font-size: 3.25rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 48px;
+    
+    z-index: 10;
+
+}
+.move {
+	margin-top: 50px;
+}
+.on {
+	    font-size: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 107, 255);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+#signup0 {
+	       position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1;
+    background-color: white;
+}
+.song {
+	    font-size: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(0, 107, 255);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.low {
+	    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(29, 52, 75);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.pop {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(0, 107, 255);
+    text-transform: uppercase;
+    margin-bottom: 24px;;
+}
+.h {
+font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(29, 52, 75);
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.cat {
+	padding-top: 20px;
+	/*padding-bottom: 30px;*/
+}
+.sales {
+	padding-top: 10px;
+}
+.recruit {
+	padding-top: 10px;
+	
+}
+.send {
+	padding-top: 15px;
+}
+.mom {
+	margin-bottom: 50px;
+}
+.lo {
+	padding-top: 20px;
+}
+.edu {
+	padding-top: 10px;
+}
+.boost {
+	padding-top: 20px;
+}
+.leo {
+	padding-top: 40px;
+}
+.doc {
+	    font-size: 3.25rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.dote {
+	letter-spacing: -0.01em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 24px;
+   
+}
+.signupb {
+	font-family: Gilroy, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 2;
+    margin-left: 50px;
+    
+}
+.boat {
+	margin-top: 50px;
+}
+.ment {
+	text-align: center;
+}
+ .brain {
+margin-top: 30px;
+margin-bottom: 50px;
+padding: 0px;
+
+ }
+ .bull {
+ 	text-align: left;
+ }
+ .thumbnaile {
+ 	height: 550px;
+ 	background-color: white;
+ 	width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    max-width: 290px;
+    height: 100%;
+    min-height: 410px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 3.77615px 12.2725px;
+    border-radius: 32px;
+    overflow: hidden;
+ }
+.more {
+	margin-bottom: 50px;
+ }
+
