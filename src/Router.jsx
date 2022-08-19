@@ -5,6 +5,9 @@ import Home from './components/Home';
 import Individual from "./components/Individual";
 import Teams from "./components/Teams";
 import Enterprise from "./components/Enterprise";
+import ErrorPage from './components/ErrorPage';
+
+
 
 
 
@@ -17,6 +20,7 @@ function Router() {
         <Route path="/individual" element={<Individual/>}/>
         <Route path="/teams" element={<Teams/>}/>
         <Route path="/enterprise" element={<Enterprise/>}/>
+        <Route path="*" element={<ErrorPage/>} />
         
     </Routes>
     </BrowserRouter>
