@@ -3,60 +3,66 @@ import React from 'react'
 function Main() {
   return (
       <div>
-                        <div class="container main1">
-                <div class="row">
-                    <div class="col-md-6">
-                    <h1 class="head anohead">The genius way to work<span style={{color: "rgb(0, 107, 255)", 
-                    fontSize: "4.20875rem"}}> better</span></h1>
-                    <p class="her">Calendly makes it easy to work smarter when you're working solo. Meetings, sessions, and appointments become more efficient ways to achieve success and accomplish goals.</p>
-                    <input type="button" name="button" value="sign up for free" id="bot"/>    
-                    </div>
-                    
-                    <div class="col-md-6 ">
-                    <img src="images/hero.png"  width="100%" height="550" class="img-responsive" alt=""/>
-                    </div>
-                </div>
-                </div>
+        <section id="sec1" className="sec1">
+		<div className="container">
+		<div className="row twotwo">
+				<div className="col-md-6">
+				<h1 className="easyone">The genius way to work <span>better</span></h1>
+				<p className="text">Calendly makes it easy to work smarter when you re working solo. 
+				Meetings, sessions, and appointments become more efficient ways to achieve success 
+			  and accomplish goals.</p>
+			  <button tabindex="0" data-testid="regular-button" 
+			  type="submit"  style={{fontWeight: "bold", opacity: "1" }} className="sc-1gujuaa-0 fQJnIm" 
+			  id="signupone">Sign up for free</button>
+			 </div>
 
-                <div class="container main2">
-                <div class="row">
-                    <div class="col-md-6">
-                    <img src="images/lady.JPG" class="img-responsive" alt=""/>
-                    </div>
-                    <div class="col-md-6">
-                    <p class="cur">A CURATED CALENDAR</p>
-                    <h3 class="bk">Book up efficiently</h3>
-                    <p>When invitees select a meeting slot from your schedule, they only see the times you're available, and only the length and type of meeting you want to have. Your schedule fills up efficiently, and everyone avoids excess email exchanges.</p>
-                    <a href="https://calendly.com/integration#calendars">Learn More </a>
-                    </div>
-                </div>
+			<div className="col-md-6">
+				<img src="images/sales.webp" alt="calendlyimage" className="img-responsive img-fluid"/>
+			</div>
+		</div>
+	</div>
+	</section>
 
-                <div class="row">
-                    <div class="col-md-6">
-                    <p class="cur">A CURATED CALENDAR</p>
-                    <h3 class="bk">Book up efficiently</h3>
-                    <p>When invitees select a meeting slot from your schedule, they only see the times you're available, and only the length and type of meeting you want to have. Your schedule fills up efficiently, and everyone avoids excess email exchanges.</p>
-                    <a href="https://calendly.com/integration#calendars">Learn More </a>
-                    </div>
-                    <div class="col-md-6">
-                    <img src="images/lady2.JPG" class="img-responsive" alt=""/>
-                    </div>
-                    
-                </div>
-                </div>
+	<section id="sec2" className="sec2">
+		<div className="container pad">
+		<div className="row">
+			<div className="col-md-6 easy">
+				<img src="images/lady.JPG" alt="calenderimage" className="img-responsive img-fluid"/>
+			</div>
+			<div className="col-md-6">
+				<h1 className="easy way">The genius way to work <span>better</span></h1>
+				<p className="text">Calendly makes it easy to work smarter when you re working solo. Meetings, sessions, and appointments become more efficient ways to achieve success and accomplish goals.</p><a className="learn" href="https://calendly.com/integration#calendars">Learn More </a>
+			</div>
+		</div>	
+	</div>
+	</section>
 
-                <div class="container-fluid flu2">
-                <div class="row">
-                    <div class="col-md-12">
+	<section id="sec3">
+		<div className="container contain">
+		<div className="row twothree">
+				<div className="col-md-6">
+				<h1 className="easyone eo">Work like you have a personal assistant</h1>
+				<p className="text">Because Calendly automates administrative tasks like sending reminder emails and follow-ups, you can focus on the work that builds your business and brings customers back for more.</p>
+				<a className="learn3" href="https://calendly.com/integration#calendars">Learn More </a>
+		    </div>
+			  <div className="col-md-6">
+				    <img src="images/lady2.JPG" alt="calendlyimage" className="img-responsive img-fluid"/>
+			  </div>
+		</div>
+	</div>
+	</section>
 
-                    <p>Find just-right plans for<br/> individuals and small teams</p>
-                    <input type="button" name="button" value="sign up for free" class="bot"/>
-                </div>
-                    </div>
-                
-                </div>
-
-                
+	<section id="sec4">
+		<div className="container-fluid give">
+		<div className="row">
+			<div className="col-md-12">
+				<h2 className="seen">Find just-right plans for<br/> individuals and small teams</h2>
+				<p><button tabindex="0" data-testid="regular-button" type="submit"  style={{fontWeight: "bold", opacity: "1" }}className="sc-1gujuaa-0 fQJnIm">
+				See our plans</button></p>
+			</div>
+		</div>
+	</div>
+	</section>
       </div>
   )
 }

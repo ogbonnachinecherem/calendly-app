@@ -1,46 +1,114 @@
 import React from 'react'
 
 function Thumb() {
-  return (
- 
-    <div class="container th">
-           <div class="row">
-               <div class="col-md-4">
-                  <section 
-                        style={{marginLeft: "30px", borderLeft: "1px solid lightgray",
-                        height: "250px", id:"i"}}>
-                        <span style={{color: "white", display: "flex", webkitBoxAlign: "center",
-                        alignItems: "center", webkitBoxBack: "center", justifyContent: "center",
-                        width: "30px", height: "30px", backgroundColor: "rgb(0, 107, 255)", borderRadius: "50%",}}>1.</span>
-                        <h3 style={{paddingLeft: "20px", marginBottom: "20px", fontSize: "1rem", lineHeight: "1.6",
-                        fontWeight: "700"}}>Create simple rules</h3>
-                        <p style={{paddingLeft: "20px", fontSize: "1.125rem", lineHeight: "1.6",
-                        fontWeight: "500",}}>Let Calendly know your availability preferences and it'll do the work for you.</p>
-                  </section>
-               </div>
-               <div class="col-md-4">
-                  <section style={{marginLeft: "30px", borderLeft: "1px solid lightgray", height: "250px", id: "i"}}>
-                        <span style={{color: "white", display: "flex", webkitBoxAlign: "center", alignItems: "center",
-                        webkitBoxPack: "center", justifyContent: "center", width: "30px", height: "30px",
-                        backgroundColor: "rgb(0, 107, 255)", borderRadius: "50%",}}>2.</span>
-                        <h3 style={{paddingLeft: "20px", marginBottom: "20px", fontSize: "1rem",lineHeight: "1.6",
-                        fontWeight: "700"}}>Share your link</h3>
-                        <p style={{paddingLeft: "20px", fontSize: "1.125rem",lineHeight: "1.6", fontWeight: "500",}}>
-                        Send guests your Calendly link or embed it on your website.</p>
-                 </section>
-              </div> 
-              <div class="col-md-4">
-                        <section style={{marginLeft: "30px", borderLeft: "1px solid lightgray", height:"250px", id:"i"}}>
-                            <span style={{color: "white", display: "flex", webkitBoxAlign: "center", justifyContent: "center", width: "30px", height: "30px", 
-                            backgroundColor: "rgb(0, 107, 255)", borderRadius: "50", }}>3.</span>
-                            <h3 style={{paddingLeft: "20px", marginBottom: "20px", fontSize: "1rem",}}>Get booked</h3>
-                            <p style={{paddingLeft: "20px", fontSize: "1.125rem", lineHeight: "1.6",fontWeight: 500}}>They pick a time and the event is added to your calendar.</p>
+  return ( <>
+           <section id="sec3">
+            <div className="container">
+              <div className="row">
+                  <div className="col-md-12">
+                      <h1 className="we">We make it easy to get started</h1>
+                  </div>
+              </div>
+              <div className="row last">
+                <div className="col-md-4">
+                    <div className="thumbnails">
+                <div className="caption">
+                  <p className="circle">✓</p>
+                  <h4>Create simple rules</h4>
+                    <p>
+                    Let Calendly know your availability preferences and it will do the work for you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+                <div className="col-md-4">
+                    <div className="thumbnails">
+                <div className="caption">
+                  <p className="circle">✓</p>
+                  <h4>Share your link</h4>
+                    <p>
+                    Send guests your Calendly link or embed it on your website, It's a great idea.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                    <div className="thumbnails">
+                <div className="caption">
+                  <p className="circle">✓</p>
+                  <h4>Get booked</h4>
+                    <p>They pick a time and the event is added to your calendar, Such a great idea.</p>
+                  </div>
+                </div>
+              </div>	
+              </div>
+              </div>
+            </section>
+            <section id="sec5">
+              <div className="container name">
+              <div className="row">
+                <div className="col-md-3">
+                    <div className="thumbnail amen">
+                <div className="caption">
+                  <h3 style={{textAlign: "left"}}>Easy<br/><span style={{color: "rgb(0, 107, 255)"}}>ahead</span></h3><br/>
+                  <p>We take the work out of connecting with others so you can accomplish more.</p>
+                  <form className="form-inline my-2 my-lg-0">
+                <input className="form-control mr-sm-2" type="select" placeholder="English" aria-label="Select" style={{margin: "0px"}} id="signinp"/>
+              </form> 
+              </div>
+              </div>
+              </div>
 
-                        </section>
-             </div>
-         </div>
-  </div>
- 
+                <div className="col-md-3">
+                  <div className="thumbnail amen">
+                    <div className="caption">
+                      <h3 style={{textAlign: "left"}}>About</h3><br/>
+                      <p>About Calendly<br/><br/>
+                      Contact Sales<br/><br/>
+                      Newsroom<br/><br/>
+                      Careers<br/><br/>
+                      Security</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-3">
+                <div className="thumbnail amen">
+                    <div className="caption">
+                      <h3 style={{textAlign: "left"}}>Solutions</h3><br/>
+                      <p>Customer Success<br/><br/>
+                        Sales<br/><br/>
+                        Recruiting<br/><br/>
+                        Education<br/><br/>
+                        Marketing</p>
+                  </div>
+                </div>
+              </div>
+
+                <div className="col-md-3">
+                  <div className="thumbnail amen">
+                    <div className="caption">
+                      <h3 className="pf">Popular Features</h3><br/>
+                      <p>Embed Calendly<br/><br/>
+                        Availability<br/><br/>
+                        Sending Notifications<br/><br/>
+                      Using Calendly Mobile</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            </section>
+            <section id="sec6">
+		<div className="container-fluid footer">
+    		<div className="row">
+    			<div className="col-md-12">
+    			<p className="text-center">&copy; 2022 Calendly All Rights Reserved</p>
+    		</div>
+    	</div>
+    	</div>
+	</section>
+            </>     
   )
 }
 
